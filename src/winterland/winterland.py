@@ -1,11 +1,13 @@
+import cv2
+
 
 class Winterland:
 
     def __init__(self, winterland_file_path):
-        self.img = None
+        self.img = cv2.imread(winterland_file_path)
 
     def add_cat(self, cat):
         pass
 
     def write_winterland_to_file(self, file_path):
-        pass
+        cv2.imwrite(file_path, self.img)
