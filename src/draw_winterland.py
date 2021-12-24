@@ -4,7 +4,7 @@ from src.cat_gen.cat_generator import CatGenerator
 from src.winterland.winterland import Winterland
 
 MAX_CATS = 8  # We're not having this discussion again!
-WINTERLAND_IMAGE_PATH = ""
+WINTERLAND_IMAGE_PATH = "data/winterland_1.jpeg"
 
 
 def parse_args():
